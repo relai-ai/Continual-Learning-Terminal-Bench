@@ -48,12 +48,3 @@ intentional: it reflects what each optimizer is actually allowed to change.
   (`relai_tbench_agent/`: `__init__.py`, `config.py`, `harbor_harness.py`, `kira_agent.py`,
   `anthropic_caching.py`, `prompt_templates/`).
 
-## Notes on interpreting these artifacts
-
-- GEPA's Phase 1/Phase 2 prompts contain task-specific hardcoded fixes (exact file paths, error
-  strings, and expected outputs tied to particular Terminal-Bench 2.0 tasks). It is the direct evidence behind the paper's finding that GEPA's
-  gains were driven by overfitting to the Phase 1 task set rather than by general improvements.
-- RELAI-VCL's harness code includes some keyword-based task-type detection (distinguishing, for
-  example, code-editing tasks from operational/service tasks); a few of those keywords happen to
-  overlap with terms specific to particular tasks, though the mechanism itself is generic rather
-  than a hardcoded per-task fix.
