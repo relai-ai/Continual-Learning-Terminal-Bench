@@ -1,4 +1,4 @@
-# Do Agent Optimizers Compound? — Artifacts
+# Do Agent Optimizers Compound? 
 
 This repository holds the agent-harness artifacts accompanying the preprint *"Do Agent
 Optimizers Compound? A Continual-Learning Evaluation on Terminal-Bench 2.0."* It evaluates
