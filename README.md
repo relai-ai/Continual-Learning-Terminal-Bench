@@ -1,4 +1,4 @@
-# Continual-Learning Evaluation on Terminal-Bench 2.0 
+# Continual-Learning Evaluation on Terminal-Bench 2.0
 
 This repository holds the agent-harness artifacts accompanying the preprint *"Do Agent
 Optimizers Compound? A Continual-Learning Evaluation on Terminal-Bench 2.0."* It evaluates
@@ -8,15 +8,17 @@ agent, is optimized on an initial set of tasks (Phase 1), and is then optimized 
 expanded task set that includes newly introduced tasks (Phase 2). These artifacts are the actual
 agent snapshots produced at each stage of that protocol.
 
-`do_agent_optimizers_compound.pdf` in this directory is the technical article draft.
+## Paper
+
+📄 [**Do Agent Optimizers Compound? A Continual-Learning Evaluation on Terminal-Bench 2.0**](https://github.com/relai-ai/Continual-Learning-Terminal-Bench/blob/main/do_agent_optimizers_compound.pdf)
 
 ## Layout
 
 ```
-baseline_agent/       Three copies of the shared, unoptimized starting agent
-GEPA/                 GEPA's optimized artifacts (prompt-only)
-meta-harness/          Meta Harness's optimized artifacts (harness code)
-RELAI/                 RELAI-VCL's optimized artifacts (full harness package)
+baseline_agent/    Three copies of the shared, unoptimized starting agent
+GEPA/              GEPA's optimized artifacts (prompt-only)
+meta-harness/      Meta Harness's optimized artifacts (harness code)
+RELAI/             RELAI-VCL's optimized artifacts (full harness package)
 ```
 
 ### `baseline_agent/`
