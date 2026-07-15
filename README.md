@@ -51,8 +51,7 @@ intentional: it reflects what each optimizer is actually allowed to change.
 ## Notes on interpreting these artifacts
 
 - GEPA's Phase 1/Phase 2 prompts contain task-specific hardcoded fixes (exact file paths, error
-  strings, and expected outputs tied to particular Terminal-Bench 2.0 tasks). This is
-  intentionally left visible: it is the direct evidence behind the paper's finding that GEPA's
+  strings, and expected outputs tied to particular Terminal-Bench 2.0 tasks). It is the direct evidence behind the paper's finding that GEPA's
   gains were driven by overfitting to the Phase 1 task set rather than by general improvements.
 - RELAI-VCL's harness code includes some keyword-based task-type detection (distinguishing, for
   example, code-editing tasks from operational/service tasks); a few of those keywords happen to
