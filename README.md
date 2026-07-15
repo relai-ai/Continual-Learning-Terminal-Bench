@@ -8,8 +8,7 @@ agent, is optimized on an initial set of tasks (Phase 1), and is then optimized 
 expanded task set that includes newly introduced tasks (Phase 2). These artifacts are the actual
 agent snapshots produced at each stage of that protocol.
 
-`do_agent_optimizers_compound.pdf` in this directory is a placeholder for the paper itself and
-will be replaced once the preprint is finalized.
+`do_agent_optimizers_compound.pdf` in this directory is the technical article draft.
 
 ## Layout
 
