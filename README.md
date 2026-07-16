@@ -10,7 +10,7 @@ agent snapshots produced at each stage of that protocol.
 
 ## Paper
 
-📄 [**Do Agent Optimizers Compound? A Continual-Learning Evaluation on Terminal-Bench 2.0**](https://github.com/relai-ai/Continual-Learning-Terminal-Bench/blob/main/do_agent_optimizers_compound.pdf)
+📄 [**Do Agent Optimizers Compound? A Continual-Learning Evaluation on Terminal-Bench 2.0**](https://arxiv.org/abs/2607.14004)
 
 ## Layout
 
